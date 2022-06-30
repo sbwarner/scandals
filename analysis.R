@@ -116,7 +116,7 @@ VARselect(X_endog_irs, lag.max = 14, type = "const")
 
 # Specify VARs
 
-setseed(2000)
+set.seed(2000)
 
 var.beng <- VAR(y = X_endog_beng, p = 7, type="const")
 var.va <- VAR(y = X_endog_va, p = 8, type="const") 
