@@ -41,7 +41,6 @@ library(rio)
 
 source("functions/granger.test.R")
 source("functions/var.lag.specification.R")
-source("functions/ggacfpacf.R")
 
 # Load data, select variables of interest
 
